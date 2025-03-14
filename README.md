@@ -6,7 +6,8 @@ Code for running experiments on Graph Classification (NIH-TB Dataset), and Node 
 ## Directory Structure
 ```
 MMMG/
-| ── environment.yml:
+| ── environment.yml
+| ── config.json #config file for load and save dirs
 | ── TB_data.pickle.zip # pre-processed TB portals data, needs to be unzipped
 | ── Node Classification/ (Inductive setting on toy example datasets)
 │  ├── ACM_Scripts/ # Baselines/Model for ACM classification task
